@@ -79,4 +79,4 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = { :host => 'https://ewebet.herokuapp.com' }
 end
-end
+
