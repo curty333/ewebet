@@ -1,3 +1,4 @@
+source 'https://code.stripe.com'
 source 'https://rubygems.org'
 
 
@@ -24,8 +25,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.0.3.0'
 
 gem "paperclip", "~> 4.2"
+gem "figaro"
 gem "devise"
-
+gem 'stripe'
 group :production do
   gem 'pg'
   gem 'rails_12factor'
