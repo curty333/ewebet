@@ -10,4 +10,5 @@ validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
   validates :price, numericality: { greater_than: 0 }
 
   belongs_to :user
+  has_many :orders
 end
